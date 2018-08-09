@@ -8,7 +8,8 @@ Implementation of different data structures with different languages
 - [ ] XOR linked list 
 - [ ] Multiply Linked List
 - [ ] Circular Linked List
-- [ ] Stack
+- [x] Stack (ArrayStack)
+- [ ] Stack (ListStack)
 - [ ] Queue
 - [ ] Double-ended Queue
 - [ ] Priority Queue
