@@ -3,7 +3,7 @@
 Implementation of different data structures with different languages
 
 #### Go
-- [x] ~~Singly Linked List~~
+- [x] Singly Linked List
 - [ ] Doubly Linked List
 - [ ] XOR linked list 
 - [ ] Multiply Linked List
