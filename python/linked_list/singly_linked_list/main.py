@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-from LinkedList import LinkedList
+from SinglyLinkedList import LinkedList
 from Node import Node
 
 def main():
@@ -16,32 +16,32 @@ def main():
     ll.insert_beginning(Node(5))
     # Print current llst
     ll.print_list()
-    print("Count: ", ll.count, "\n")
+    print("Count: ", ll.size, "\n")
 
     # Removal methods
     print("Removing node with value 2")
     ll.remove(Node(2))
     ll.print_list()
-    print("Count: ", ll.count, "\n")
+    print("Count: ", ll.size, "\n")
 
     print("Removing last element of llst")
     ll.pop()
     ll.print_list()
-    print("Count: ", ll.count, "\n")
+    print("Count: ", ll.size, "\n")
 
     # trying to remove non existing node
     print("Removing not existent element Node(2)")
     ll.remove(Node(2))
     ll.print_list()
-    print("Count: ", ll.count, "\n")
+    print("Count: ", ll.size, "\n")
 
     # empty whole llst with pop calls
     print("About to empty list with `LinkedList.pop` calls")
-    for _ in range(ll.count + 10):
+    for _ in range(ll.size + 10):
         ll.pop()
     ll.print_list()
     #ll.empty()
-    print("Count: ", ll.count, "\n")
+    print("Count: ", ll.size, "\n")
 
 if __name__ == '__main__' :
     main()
