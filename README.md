@@ -4,7 +4,7 @@ Implementation of different data structures with different languages
 
 #### Go
 - [x] Singly Linked List
-- [ ] Doubly Linked List
+- [x] Doubly Linked List
 - [ ] XOR linked list 
 - [ ] Multiply Linked List
 - [ ] Circular Linked List
